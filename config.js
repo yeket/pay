@@ -6,7 +6,7 @@ const basic = { // 基础设置
     avatar: 'http://cdnn.sgybbq.com/o_1h0n4ddbtgf8qi31far7466laa.jpg', // 头像 URL
     name: '王亦可', // 头像下的昵称
     sign: ' ( •̀ ω •́ )✧', // 个性签名或提示文字，可使用 HTML 格式
-    user_page: '', // 点击头像或名字时跳转的链接，留空或删除则不跳转
+    user_page: 'https://wangyike.eu.org', // 点击头像或名字时跳转的链接，留空或删除则不跳转
     footer: '(づ￣ 3￣)づ', // 页脚文字，可使用 HTML 格式
     uri_redirect: true // 若收款码 URL 是网址，是否直接跳转而不显示二维码
 }
@@ -19,8 +19,8 @@ const theme = { // 主题设置
 }
 
 const tools = { // 右上角小工具设置
-    dl_btn: true, // 二维码下载
-    badge_generator: true // 徽章生成器
+    dl_btn: false, // 二维码下载
+    badge_generator: false // 徽章生成器
 }
 
 const urls = [ // 付款方式列表
