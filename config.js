@@ -8,7 +8,7 @@ const basic = { // 基础设置
     sign: ' ( •̀ ω •́ )✧', // 个性签名或提示文字，可使用 HTML 格式
     user_page: '', // 点击头像或名字时跳转的链接，留空或删除则不跳转
     footer: '(づ￣ 3￣)づ', // 页脚文字，可使用 HTML 格式
-    uri_redirect: false // 若收款码 URL 是网址，是否直接跳转而不显示二维码
+    uri_redirect: true // 若收款码 URL 是网址，是否直接跳转而不显示二维码
 }
 
 const theme = { // 主题设置
